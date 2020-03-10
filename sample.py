@@ -6,6 +6,5 @@ def FizzBuzz(value):
         return "Buzz"
     elif value%3==0:
         return "Fizz"
-
     else:
         return value

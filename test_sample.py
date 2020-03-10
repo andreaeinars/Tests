@@ -5,8 +5,14 @@ def test_fizzbuzz():
 def test_buzz():
     assert FizzBuzz(5)=="Buzz"
 
+def test_buzz():
+    assert FizzBuzz(10)=="Buzz"
+
 def test_fizz():
     assert FizzBuzz(3)=="Fizz"
+
+def test_fizz():
+    assert FizzBuzz(6)=="Fizz"
 
 def test_nothing():
     assert FizzBuzz(2)==2
